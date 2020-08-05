@@ -1,10 +1,11 @@
-# Decathlon vacancy exam (adapted from ada 2017)
+#Python data analysis Decathlon vacancy exam (adapted from ada 2017)
 
 ## Important notes
 
 * Don't forget to add a textual description of your thought process, the assumptions you made, and your results!
+* Don't worry about the questions, you don't need to respond to all of them.
 * Please write all your comments in English, and use meaningful variable names in your code.
-* You can use all the online resources you want
+* You can use all the online resources you want 
 * Remember, this is not a homework assignment -- no teamwork allowed!
 
 ## Submission
