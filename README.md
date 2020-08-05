@@ -46,7 +46,7 @@ In this file, each row represents the outcome of one battle between two Pokémon
 * Second_pokemon: Numeric - ID (match with pid)
 * Winner: Numeric - ID of the winner
 
-## Question 1: Exploring the data - 30 points
+## Exploring the data 
 In this part, you will explore the data to address the curiosities of the demanding Professor Oak.
 
 1. (6 points) Explore the data and report some descriptive statistics (e.g., use df.describe(), report the number of classes, summarize the attack and defense distributions, etc.). This will be useful later in your analysis.
@@ -60,6 +60,10 @@ In this part, you will explore the data to address the curiosities of the demand
    Note: You may assume that the distribution of the regular attack feature is normal for all Pokémon classes.
 4. (10 points) Professor Oak reveals to you that he has built a backdoor into every Pokedex in the world and that he is secretly dumping the memory of all devices to his servers. He expects to have the records of 1 billion combats soon, and one machine won’t be enough to handle all this data, so he wants you to use Spark. Your task: Solve problem 2iv above (“list the names of the 10 Pokémon with the largest number of victories”) with a Spark implementation in Python. The output should be a Python list with 10 names sorted in descending order of number of victories.
    Note: You don’t need to run the Spark code -- just list it! You should assume that you have two DataFrames (already loaded) called `pokemon` and `combats`, with the same schema as the small CSV files you’ve been working with above.
+
+
+<!--
+
 
 ## Question 2: Prediction - 40 points
 Now that you know what your data looks like, you are ready to implement the prediction model for the Pokedex 2.0. The model should take as input the features of two Pokémon and generate a binary value to predict who will win.
@@ -83,5 +87,5 @@ Pokémon tournaments can be represented as a so-called _dominance graph_. The do
 4. (3 points) Compare the ranking by dominance scores with the ranking by winning ratio (cf. subquestion 1 above). What do you observe? How do you explain the differences (if any)?
 5. (5 points) Professor Oak is really keen on featuring a solid ranking mechanism in the new Pokedex, so you need to make a decision: Which scoring method is better, that based on winning ratio or that based on dominance scores? Support your opinion with explanations and examples.
 
-
+-->
 ### Good luck!
