@@ -1,4 +1,4 @@
-#Python data analysis Decathlon vacancy exam (adapted from ada 2017)
+# Python data analysis Decathlon vacancy exam (adapted from ada 2017)
 
 ## Important notes
 
