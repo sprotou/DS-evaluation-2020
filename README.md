@@ -9,7 +9,7 @@
 * Remember, this is not a homework assignment -- no teamwork allowed!
 
 ## Submission
-* Make sure you upload your iPython Notebook (1 file) with [this form](https://forms.gle/VXQnpczzNvbfqtwq6) at the end of the exam, with all the cells already evaluated (except for the Spark-related question 1.4).
+* Make sure you upload your iPython Notebook (1 file) with [this form](https://forms.gle/VXQnpczzNvbfqtwq6) at the end of the exam, with all the cells already evaluated (except for the MR-related question 1.4).
 * Complete all the fields in the form, and name your file following the format "NameSurname_decathlon.ipynb".
 
 # Design the Pokedex 2.0
@@ -59,8 +59,8 @@ In this part, you will explore the data to address the curiosities of the demand
 3. (10 points) Professor Oak suspects that Pokémon in the _grass_ class have a stronger regular attack than those in the _rock_ class. Check if he is right and convince him of your conclusion with statistical arguments.
    Note: If there are Pokémon that are in both classes, discard them.
    Note: You may assume that the distribution of the regular attack feature is normal for all Pokémon classes.
-4. (10 points) Professor Oak reveals to you that he has built a backdoor into every Pokedex in the world and that he is secretly dumping the memory of all devices to his servers. He expects to have the records of 1 billion combats soon, and one machine won’t be enough to handle all this data, so he wants you to use Spark. Your task: Solve problem 2iv above (“list the names of the 10 Pokémon with the largest number of victories”) with a Spark implementation in Python. The output should be a Python list with 10 names sorted in descending order of number of victories.
-   Note: You don’t need to run the Spark code -- just list it! You should assume that you have two DataFrames (already loaded) called `pokemon` and `combats`, with the same schema as the small CSV files you’ve been working with above.
+4. (10 points) Professor Oak reveals to you that he has built a backdoor into every Pokedex in the world and that he is secretly dumping the memory of all devices to his servers. He expects to have the records of 1 billion combats soon, and one machine won’t be enough to handle all this data, so he wants you to use a scalable/Python method (Pyspark/dask/Python... your choice ! ). Your task: Solve problem 2iv above (“list the names of the 10 Pokémon with the largest number of victories”) map reduce implementation in Python. The output should be a Python list with 10 names sorted in descending order of number of victories.
+   Note: You don’t need to run the code -- just list it! You should assume that you have two DataFrames (already loaded) called `pokemon` and `combats`, with the same schema as the small CSV files you’ve been working with above.
 
 
 <!--
